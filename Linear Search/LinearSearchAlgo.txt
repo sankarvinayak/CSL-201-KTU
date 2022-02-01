@@ -1,0 +1,10 @@
+1-Start
+2-Input number of numbers n
+3-Input the numbers into an array ar
+4-Input the number to search s
+5-loop i from 0 to n-1
+    a-if s=ar[i]
+        print number found at position i+1 
+        stop
+6-print number not found in given array
+7-Stop

@@ -1,0 +1,11 @@
+Number of elements in heap:7
+Enter elements of heap heap
+Enter element 1:1
+Enter element 2:8
+Enter element 3:4
+Enter element 4:6
+Enter element 5:7
+Enter element 6:2
+Enter element 7:5
+Sorted array is 
+1 2 4 5 6 7 8

@@ -1,0 +1,85 @@
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+2
+Enter the charactor     n
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+1
+Enter the charactor     e
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+2
+Enter the charactor     e
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+1
+Enter the charactor     t
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+3
+t e n e
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+4
+The given string is not a palindrome
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+2
+Enter the charactor     t
+
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+4
+The given string is a palindrome
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+3
+t e n e t
+
+1-Insert left
+2-Insert right
+3-Print
+4-Check palindrome
+Others-exit
+5

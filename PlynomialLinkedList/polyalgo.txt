@@ -1,0 +1,37 @@
+START
+
+    1. Define struct ‘Polynomial’ with variables ‘coeff’, ‘pow’ and ‘next’
+    2. Define procedure readPolynomial(struct Polynomial** poly):
+        a. Allocate memory to a temp pointer
+        b. Point poly to temp
+        c. Take input for temp->coeff and temp->pow
+        d. Point temp->next to null
+        e. If there are more terms poly=poly->next and repeat from step 2.a 
+    3. Define procedure displayPolynomial(struct Polynomial* poly):
+        a. While poly not equal to NULL repeat steps 3.b to 3.d
+        b. Print poly->coeff and poly->pow
+        c. poly = poly->next
+        d. if poly->next != NULL : print ‘+’
+    4. Define procedure addPolynomials(struct Polynomial** sum, struct Polynomial* first,  struct Polynomial* second):
+        a. While first->next or second->next != NULL repeat steps
+        b. If(first->pow > second->coeff):
+            i. Allocate memory to a temp pointer
+            ii. Sum->next=temp
+            iii. Sum->coeff=first->coeff
+            iv. Sum->pow=first->pow
+            v. Sum=sum->next
+        c. If(first->pow < second->coeff):
+            i. Allocate memory to a temp pointer
+            ii. Sum->next=temp
+            iii. Sum->coeff=second->coeff
+            iv. Sum->pow=second->pow
+            v. Sum=sum->next
+        d. Else (first->pow = second->coeff):
+            i. Allocate memory to a temp pointer
+            ii. Sum->next=temp
+            iii. Sum->coeff=first->coeff+second->coeff
+            iv. Sum->pow=first->pow+second->pow
+            v. Sum=sum->next
+    5. Define Main and call functions accordingly.
+
+END

@@ -1,0 +1,8 @@
+1-Start
+2-Insert the graph
+3-Insert the starting node
+4-initialise the queue
+5-Repeat until the queue is empty and no adjescent unvisited vertex
+    Visit the unvisited vertex and mark as visited
+    If no adjescent unvisited vertex is found remove the first vertex from the queue
+6-Stop

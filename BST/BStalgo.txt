@@ -1,0 +1,45 @@
+1-Start
+2-Define a structure with left root and key as elements
+3-Define functions
+4-NewNode(key)
+    Dynamically allocate a node of structure pointer
+    insert key to the variables key part
+    assign left and right to null
+    return the node
+5-inorder(root)
+    inorder(root->left)
+    print root key
+    inorder(root->right)
+6-insert(Struct node* node,int key)
+    if node is null 
+    return NewNode(key)
+    if key<node->key
+    node->left=insert(node->left,key)
+    else
+    node->right=insert(node->right,key)
+    return node
+7-minValueNode(node)
+    return the left most or root node to node
+8-DeleteNode(root,key)
+    if root==null
+    return root
+    if key<root
+    root->left=DeleteNode(root->left,key)
+    else if key>root-key
+    root->right=DeleteNode(root->right,key)
+    else
+        if(root->left==null)
+        node *temp=root->right
+        free root
+        return temp
+        if(root->right==null)
+        node *temp=root->left
+        free root
+        return temp
+    node *temp=minValueNode(root->right)
+    root->key=temp->key
+    root->right=DeleteNode(root->right,temp->key)
+    return root
+9-Main()
+    menu for Insertion Display and deletion
+10-Stop

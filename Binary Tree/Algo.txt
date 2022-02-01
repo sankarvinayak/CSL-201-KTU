@@ -1,0 +1,45 @@
+1-Start
+2-Cretate a structure named node with data and left node pointer and right node pointer as elemnts
+3-Define In_order_traversal(root)
+    if root is null
+        return
+    In_order_traversal(root->left)
+    print data of root
+    In_order_traversal(root->right)
+    return
+4-Define pre_order_traversal(root)
+    if root is null
+        return
+    print data of root
+    pre_order_traversal(root->left)
+    pre_order_traversal(root->right)
+    return
+3-Define post_order_traversal(root)
+    if root is null
+        return
+    post_order_traversal(root->left)
+    post_order_traversal(root->right)
+    print data of root
+    return
+4-Define Cretatenode(value)
+    Dtnamically allocate a node pointer root
+    root->data=value
+    initilise left and right as null
+5-Define insertLeft(root,value)
+    root->left=Cretatenode(value)
+    return root->left
+6-Define insertRight(root,value)
+    root->right=Cretatenode(value)
+    return root->right
+7-Define delete(root)
+    if root is null
+        return
+    if(root->leftis nit NULL)
+        delete(root->left)
+    if(root->right is nit NULL)
+        delete(root->right)
+    free(root)
+8-Define main
+    Create binary tree and enter the elements
+    delete binary tree
+9-Stop

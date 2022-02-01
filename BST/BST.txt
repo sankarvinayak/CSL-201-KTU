@@ -1,0 +1,68 @@
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert1
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert2
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert3
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert5
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert9
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit1
+Enter data to insert10
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit2
+Inorder traversal       1 -> 2 -> 3 -> 5 -> 9 -> 10 ->
+1-Insert
+2-Display
+3-Delete
+Others-Exit3
+Enter data to delete10
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit2
+Inorder traversal       1 -> 2 -> 3 -> 5 -> 9 ->
+1-Insert
+2-Display
+3-Delete
+Others-Exit3
+Enter data to delete2
+
+1-Insert
+2-Display
+3-Delete
+Others-Exit2
+Inorder traversal       1 -> 3 -> 5 -> 9 ->
+1-Insert
+2-Display
+3-Delete
+Others-Exit4

@@ -1,0 +1,16 @@
+1-Start
+2-Input number of numbers n
+3-Input the numbers into an array ar 
+4-Input the number to search s
+5-first=0;last=n-1
+6-loop While first <= last
+    middle=(first+last)/2
+    if s=ar[middle]
+        print number found at position i+1 
+        stop
+    else if s>ar[middle]
+        first=middle+1
+    else 
+        last=middle-1
+7-print number not found in given array
+8-Stop

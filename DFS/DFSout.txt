@@ -1,0 +1,27 @@
+Number of vertices:	5
+1th Vertex name	S
+2th Vertex name	A
+3th Vertex name	B
+4th Vertex name	C
+5th Vertex name	D
+Number of edges	6
+Enter 1th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	0
+Enter Destination Vertex Point:	1
+Enter 2th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	0
+Enter Destination Vertex Point:	2
+Enter 3th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	0
+Enter Destination Vertex Point:	3
+Enter 4th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	1
+Enter Destination Vertex Point:	4
+Enter 5th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	2
+Enter Destination Vertex Point:	4
+Enter 6th Edge  Co-ordinates  [-1 -1] to Quit
+Enter Origin Vertex Point:	3
+Enter Destination Vertex Point:	4
+Enter Starting Vertex for DFS:	0
+S	A	D	B	C

@@ -1,0 +1,9 @@
+1-Start
+2-Insert the graph
+3-Insert the starting node
+4-initialise the queue
+5-visit the adjescent unvisited vertex and mark as visited and push it on to the stack
+6-While stack is not empty
+    visit the adjescent unvisited vertex and mark as visited and push it on to the stack
+    if no adjescent vertex is found pop the element from stack stack
+6-Stop

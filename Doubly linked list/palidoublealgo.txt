@@ -1,0 +1,57 @@
+1-Start
+2-Create a structure variable node of 2 self reffrential pointers left anf right and a data part
+3-Declare Left and Right of type node and initilise as null
+4-insertRight(char c)
+    Dynamically allocate a temp of type node
+    assign c to its data part
+    assign NULL to left and right of temp
+    if Linked list is empty
+        Assign Left and Right as temp
+    else
+        Right->right=temp
+        temp->left=Right
+        Right=temp
+5-insertLeft(char c)
+    insertRight(char c)
+    Dynamically allocate a temp of type node
+    assign c to its data part
+    assign NULL to left and right of temp
+    if Linked list is empty
+        Assign Left and Right as temp
+    else
+        Left->left=temp
+        temp->right=Left
+        Left=temp
+6-print()
+    if Linked list is null print linked list is null
+    else
+        Dynamically allocate a temp of type node
+        assign Left to temp
+        while temp!=NULL
+            print temp->data
+            temp=temp->right
+7-isSameData(node *t1,node *t2)
+    if t1->data==t2->data
+    return true
+    else 
+    return false
+8-isSameNode(node *t1,node *t2)
+    if t1->left==t2->left&&t1->right==t2->right
+    return true
+    else return false
+9-checkPali()
+    if Left==NULL&&Right==NULL
+        printf Linked list is empty
+        return true
+    t1=Left;
+    t2=Right;
+    while isSameData(t1,t2)
+       if isSameNode(t1,t2)
+       return true
+       t1=t1->right
+       t2=t2->left
+   return false
+10-main()
+    menu for diffrent operations
+11-Stop
+

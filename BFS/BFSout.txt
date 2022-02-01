@@ -1,0 +1,27 @@
+Enter number of vertices	5
+Number of edges	6
+Insert 1th vertex charactor	S
+Insert 2th vertex charactor	A
+Insert 3th vertex charactor	B
+Insert 4th vertex charactor	C
+Insert 5th vertex charactor	D
+Insert 1th edge
+Initial point	0
+terminal point	1
+Insert 2th edge
+Initial point	0
+terminal point	2
+Insert 3th edge
+Initial point	0
+terminal point	3
+Insert 4th edge
+Initial point	1
+terminal point	4
+Insert 5th edge
+Initial point	2
+terminal point	4
+Insert 6th edge
+Initial point	3
+terminal point	4
+
+Breadth First Search: S A B C D

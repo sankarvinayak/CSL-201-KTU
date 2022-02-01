@@ -1,0 +1,28 @@
+1-Start
+2-Swap(int a,int b)
+    Swap the values at a and b
+3-Heapify(int arr[],int n, int i)
+    Assign i to largest
+    left=2*i+1
+    right=2*i+2
+    if arr[largest]<arr[left]
+        largest = left
+    if arr[largest]<arr[right]
+        largest = right
+    if largest not equal to i
+        swap(arr[i],arr[largest])
+        Heapify(arr,n,largest)
+4-Heapsort(int arr[],int n)
+    loop while i=n/2 to o
+        Heapify(arr,n,i)
+    loop whie i=n-1 to 0
+        swap(arr[0],arr[i])
+        Heapify(arr,i,o)
+5-printarray(int arr[])
+    Traverse and print elements of array
+6-main()
+    Insert number of elements of heap in n
+    insert elements of heap into arr[]
+    Heapsort(arr,n)
+    printarray(arr)
+7-Stop

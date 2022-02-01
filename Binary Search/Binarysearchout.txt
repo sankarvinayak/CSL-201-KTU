@@ -1,0 +1,19 @@
+How many numbers you wish to enter 5
+Enter the numbers in sorted order
+1
+12
+123
+1234
+12345
+Enter the number to search123
+123 is present at index 3.
+
+How many numbers you wish to enter 5
+Enter the numbers in sorted order
+1
+2
+3
+4
+5
+Enter the number to search6
+Number not found

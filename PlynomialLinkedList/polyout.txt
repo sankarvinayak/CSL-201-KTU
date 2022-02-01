@@ -1,0 +1,30 @@
+
+Enter the corresponding data:-
+
+First polynomial:
+
+Coefficient: 1
+Exponent: 2
+Have more terms? 1 for y and 0 for no: 1
+
+Coefficient: 2
+Exponent: 3
+Have more terms? 1 for y and 0 for no: 0
+
+ The First polynomial is:
+1x^2 + 2x^3
+Second polynomial:
+
+Coefficient: 3
+Exponent: 4
+Have more terms? 1 for y and 0 for no: 1
+
+Coefficient: 4
+Exponent: 5
+Have more terms? 1 for y and 0 for no: 0
+
+The Second polynomial is:
+3x^4 + 4x^5
+
+The sum of polynomials is:
+3x^4 + 4x^5 + 1x^2 + 2x^3

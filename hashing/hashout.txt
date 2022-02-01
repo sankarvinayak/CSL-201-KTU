@@ -1,0 +1,40 @@
+
+Enter the Total number of Employees: 5
+Enter the number of Employees having 4 digit number: 5
+
+Enter employees' numbers:
+1232
+1122
+1144
+3223
+1551
+
+
+1.Linear Probing
+2.Quadratic Probing
+3.Exit
+Enter your option: 1
+
+The Employee numbers are:
+  Employee 1: 3223
+  Employee 2: 1551
+  Employee 3: 1232
+  Employee 4: 1122
+  Employee 5: 1144
+
+1.Linear Probing
+2.Quadratic Probing
+3.Exit
+Enter your option: 2
+
+The Employee numbers are:
+  Employee 1: 1551
+  Employee 2: 3223
+  Employee 3: 1232
+  Employee 4: 1122
+  Employee 5: 1144
+
+1.Linear Probing
+2.Quadratic Probing
+3.Exit
+Enter your option: 3

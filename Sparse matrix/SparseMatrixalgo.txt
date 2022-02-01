@@ -1,0 +1,19 @@
+1-Start
+2-Enter number of rows ans columns of matrix
+3-Enter number of non zero elements
+4-if number of non zero element is grather than rows*columns
+    print Number of elements should be less than rows*columns
+5-else
+    loop i from 0 to n
+        Enter the row and column of given element and store in first and second columns of array
+        Enter the element in to third column of array
+    Print the sparse matrix as row clomun and element corresponds to the first second and third column elements
+    loop i from 0 to row
+        loop j from 0 to column
+            if there is an element with row i and column j 
+                print element
+            else 
+                print zero
+            print new line
+6-Stop
+

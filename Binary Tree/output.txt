@@ -1,0 +1,12 @@
+Inorder traversal 
+ A C B E D
+Preorder traversal 
+ E C A B D
+Postorder traversal 
+ A B C D E
+Deleting Tree
+A deleted
+B deleted
+C deleted
+D deleted
+E deleted

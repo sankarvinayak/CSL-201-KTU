@@ -1,0 +1,65 @@
+Number of rows of matrix:3
+Number of columns of matrix:3
+Number of non zero elements of matrix:3
+Insert Element 1
+Row of element:0
+Column of element:0
+Value of element:1
+Insert Element 2
+Row of element:1
+Column of element:1
+Value of element:2
+Insert Element 3
+Row of element:2
+Column of element:2
+Value of element:3
+The given sparse mathrix is
+Row     :0 1 2
+Column  :0 1 2
+Value   :1 2 3
+The given mathrix is
+1 0 0
+0 2 0
+0 0 3
+
+Number of rows of matrix:2
+Number of columns of matrix:3
+Number of non zero elements of matrix:8
+Number of elements cant be more than rows*cols
+
+Number of rows of matrix:4
+Number of columns of matrix:5
+Number of non zero elements of matrix:6
+Insert Element 1
+Row of element:0
+Column of element:2
+Value of element:3
+Insert Element 2
+Row of element:0
+Column of element:4
+Value of element:4
+Insert Element 3
+Row of element:1
+Column of element:2
+Value of element:5
+Insert Element 4
+Row of element:1
+Column of element:3
+Value of element:7
+Insert Element 5
+Row of element:3
+Column of element:1
+Value of element:2
+Insert Element 6
+Row of element:3
+Column of element:2
+Value of element:6
+The given sparse mathrix is
+Row     :0 0 1 1 3 3
+Column  :2 4 2 3 1 2
+Value   :3 4 5 7 2 6
+The given mathrix is
+0 0 3 0 4
+0 0 5 7 0
+0 0 0 0 0
+0 2 6 0 0
